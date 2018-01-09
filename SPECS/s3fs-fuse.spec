@@ -1,5 +1,5 @@
 Name:           s3fs-fuse
-Version:        1.82
+Version:        1.83
 Release:        1%{?dist}
 Summary:        FUSE-based file system backed by Amazon S3
 Group:          System Environment/Base
@@ -55,6 +55,9 @@ cp -p %{SOURCE1} passwd-s3fs
 
 
 %changelog
+
+* Tue Jan 09 2018 Truls Asheim <truls@asheim.dk> - 1.83-1
+- Initial build of 1.83 from https://github.com/s3fs-fuse/s3fs-fuse
 
 * Mon May 16 2017 Julio Gonzalez Gil <git@juliogonzalez.es> - 1.82-1
 - Initial build of 1.82 from https://github.com/s3fs-fuse/s3fs-fuse
